@@ -22,11 +22,11 @@ var doc=document,flower=doc.querySelector('.flower'),petalPartMarkup='<div class
   
   // Followers - Cambiar mensajes
   const messages = [
-    'Te hize esta flor',
-    'Para ti Jany❤️',
-    'Te amo mucho chaparrita❤️',
-    'Eres muy hermosa',
-    'Mi niña hermosa 🫶🏻💕'
+    'Te hize\nesta flor',
+    'Para ti\nJany❤️',
+    'Te amo\nmucho chaparrita❤️',
+    'Eres muy\nhermosa',
+    'Mi niña\nhermosa 🫶🏻💕'
   ];
   
   var wrapper = document.querySelector('.wrapper');
@@ -251,4 +251,5 @@ var doc=document,flower=doc.querySelector('.flower'),petalPartMarkup='<div class
     }
   });
 });
+
 
